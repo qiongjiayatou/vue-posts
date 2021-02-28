@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="mt-3 mb-5 text-center">
-      <h1>Posts</h1>
+      <h1 class="is-size-1">Posts</h1>
 
       <div class="m-3">
         <p v-if="posts.length < 1">No posts yet!</p>
