@@ -1,6 +1,6 @@
 <template>
   <div class="card p-4 mb-3">
-    <h3>{{ post.title }}</h3>
+    <h3 class="is-size-4">{{ post.title }}</h3>
     <p>{{ post.body }}</p>
     <div class="d-flex justify-content-end">
       <button @click="setEditMode(post)" class="button is-warning mr-3">
