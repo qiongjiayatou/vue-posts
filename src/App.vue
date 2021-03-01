@@ -19,6 +19,8 @@
     </div>
 
     <div class="container">
+
+
       <posts
         :posts="posts"
         @delete:post="deletePost"></posts>
@@ -95,7 +97,10 @@ export default {
 </script>
 
 <style>
+
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+@import "https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
